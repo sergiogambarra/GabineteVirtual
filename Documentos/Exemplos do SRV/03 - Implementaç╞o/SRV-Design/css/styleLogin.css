@@ -1,0 +1,142 @@
+
+body {
+  font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background-color: rgba( 50,200,50, .1);
+}
+
+.container .containerLogin {
+  margin: 150px auto ;
+  width: 650px;
+  height: 290px;
+} 
+
+.container .containerLogin .login {
+  @include box-shadow(0 0 200px rgba(white, .5), 0 1px 2px rgba(black, .3));
+  box-shadow: 10px 10px 30px 1px rgba(50,200,50, .4);
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background: white;
+  border-radius: 10px 10px;
+}
+
+.login h1 {
+    margin: -20px -20px 21px;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(50,200,50, .9);
+    text-align: center;
+    background: #f3f3f3;
+    border-bottom: 1px solid #cfcfcf;
+    border-radius: 10px 10px 10px 10px ;
+    @include linear-gradient(top, whiteffd, #eef2f5);
+    @include box-shadow(0 1px #f5f5f5);
+  }
+
+.container .containerLogin .login p { margin: 20px 0 0; }
+
+/*Alinhamento do botão do formLogin*/
+.login p.submit 
+{ 
+  padding-left: 30px;
+}
+
+.login-help {  
+  text-align: center;
+}
+
+.login-help a {
+  font-size: 15px;
+  color:  rgba(50,200,50, .9);
+  text-decoration: none;
+  float: right;
+  margin-right: 10px;
+}
+
+.login-help a:hover { 
+  text-decoration: underline; 
+  font-weight: bold;
+}
+
+:-moz-placeholder {
+  color: #c9c9c9 !important;
+  font-size: 13px;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(50,200,50, .3);
+  font-size: 13px;
+}
+
+input {
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.containerLogin input[type=text], .containerLogin input[type=password]{
+  margin: 5px;
+  padding: 0 10px;
+  width:  90%;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px; // Can we get this on WebKit please?
+  @include box-shadow(inset 0 1px 3px rgba(black, .12));
+}
+
+.containerLogin input[type=text]:focus, .containerLogin input[type=password]:focus {
+    border-color: rgba(50,200,50, .6);
+    outline-color:  rgba(50,200,50, .1);
+    outline-offset: 0; // WebKit sets this to -1 by default
+  }
+
+.containerLogin input[type=submit] {
+  padding: 0 18px;
+  margin-right: 15px;
+  height: 29px;
+  width: 90%;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;
+  text-shadow: 0 1px #e3f1f1;
+  background: rgba(50,200,50, .4);
+  border: 1px solid;
+  border-color: rgba(50,200,50, .4);
+  border-radius: 10px;
+  outline: 0;
+  @include box-sizing(content-box); // Firefox sets this to border-box by default
+  @include linear-gradient(top, #edf5f8, #cde5ef);
+  @include box-shadow(inset 0 1px white, 0 1px 2px rgba(black, .15));
+}
+
+.containerLogin input[type=submit]:active {
+    background: #cde5ef;
+    border-radius: 50px;
+    @include box-shadow(inset 0 0 3px rgba(black, .2));
+  }
+
+.containerLogin input[type=submit]:hover{
+  border: 3px solid;
+  border-color: rgba(50,200,50,.9);
+}
+
+.containerLogin input[type=submit]:hover, .containerLogin input[type=submit]:focus{
+  border: 3px solid;
+  border-color: rgba(50,200,50,.9);
+}
+
+.lt-ie9 {
+  input[type=text], input[type=password] { line-height: 34px; }
+}
+
+section.about{
+  position: relative;
+  bottom: 0px;
+}
