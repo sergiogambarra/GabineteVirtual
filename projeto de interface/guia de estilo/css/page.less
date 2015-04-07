@@ -1,0 +1,129 @@
+/* ==========================================================================
+   Section comment block
+   ========================================================================== */
+
+
+/* ==========================================================================
+   TOP NAVBAR
+   ========================================================================== */
+[class*=top-navbar] {
+	> nav {
+		height: 50px;
+	}
+
+	.sub-nav {
+		height: 40px;
+	}
+
+	h1 {
+		margin: 0;
+	}
+}
+
+
+.nav {
+	//Resets
+	ul, li, a {
+		margin: 0;
+		padding: 0;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+	li {
+		display: flex;
+	}
+	a {
+		text-decoration: none;
+		padding: 10px 10px 10px 15px;
+		flex: 1;
+		transition: box-shadow linear .1s,
+					background linear .3s;
+
+		&:hover {
+			background: #eee;
+			box-shadow: inset 3px 0 0 #aaa;
+		}
+	}
+}
+
+//Helpers
+.nav.center-nav {
+	ul {
+		justify-content: center;
+	}	
+}
+
+.nav.inline-nav {
+	ul {
+		flex-direction: row;
+	}
+
+	a:hover {
+		background: none;
+		box-shadow: inset 0 -3px 0 #aaa;
+	}
+}
+
+//COLOR SCHEMES
+@white: #fff;
+@blue: #3c93ff;
+@heavy-blue: #3085ef;
+@light-grey: #d4d4d4;
+@heavy-grey: #767676;
+
+.top-navbar--primary {
+	> nav:first-child {
+		background: @white;
+		border-bottom: 2px solid @light-grey
+	}
+	.sub-nav {
+		background: @heavy-blue;
+
+		a {
+			color: #fff;
+
+			&:hover {
+				box-shadow: inset 0 -4px 0 #fff;
+			}
+		}
+	}
+}
+//***
+
+/* Sidenav
+   ========================================================================== */
+.main-nav {
+	position: fixed;
+	width: inherit;
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	ul > ul a {
+		font-size: 12px;
+		padding-left: 30px;
+	}
+
+	li {	
+		display: flex;
+	}
+
+	a {
+		text-decoration: none;
+		flex: 1;
+		padding: 10px 5px 10px 15px;
+		transition: box-shadow linear .3s,
+					background linear .3s;
+
+		&:hover {
+			background: #eee;
+			box-shadow: inset 3px 0px 0px 0px #3085ef;
+		}
+	}
+}
