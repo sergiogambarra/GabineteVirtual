@@ -1,0 +1,122 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1610" measuredH="860" mockupW="1365" mockupH="813">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="245" y="47" w="1365" h="813" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>472931</color>
+        <text>Gabinete%20Virtual%0Ahttp%3A//meu.dominio.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="808" y="510" w="238" h="28" measuredW="61" measuredH="24" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>5865130</color>
+        <menuIcon>false</menuIcon>
+        <size>14</size>
+        <text>Entrar</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::Image" x="757" y="165" w="341" h="139" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::CheckBox" x="812" y="463" w="-1" h="-1" measuredW="147" measuredH="22" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Me%20manter%20conectado</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="868" y="550" w="-1" h="-1" measuredW="118" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Esqueceu%20a%20senha%3F</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="__group__" x="807" y="385" w="241" h="63" measuredW="241" measuredH="63" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextInput" x="21" y="0" w="220" h="-1" measuredW="50" measuredH="24" zOrder="0" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>%20%20Email</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TextInput" x="21" y="39" w="220" h="-1" measuredW="55" measuredH="24" zOrder="1" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>%20%20Senha</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="21" h="24" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="38">
+          <controlProperties>
+            <borderColor>6710886</borderColor>
+            <color>13421772</color>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="3" y="4" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="38">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>ContactIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="39" w="21" h="24" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="38">
+          <controlProperties>
+            <color>13421772</color>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="3" y="43" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="5" locked="false" isInGroup="38">
+          <controlProperties>
+            <color>16777215</color>
+            <icon>LockIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Canvas" x="808" y="657" w="238" h="85" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="852" y="672" w="-1" h="-1" measuredW="150" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ainda%20n%E3o%20%E9%20cadastrado%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Button" x="881" y="699" w="92" h="28" measuredW="77" measuredH="24" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>5865130</color>
+        <menuIcon>false</menuIcon>
+        <size>12</size>
+        <text>Cadastrar</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Canvas" x="245" y="790" w="1365" h="70" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <borderColor>472931</borderColor>
+        <color>0</color>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Image" x="1537" y="803" w="45" h="45" measuredW="77" measuredH="79" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Label" x="1297" y="815" w="-1" h="-1" measuredW="225" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Instituto%20Federal%20do%20Rio%20Grande%20do%20Sul</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::LinkBar" x="820" y="816" w="-1" h="-1" measuredW="202" measuredH="19" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Link%201%2C%20Link%202%2C%20Link%203%2C%20Link%204</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::IconLabel" x="267" y="813" w="-1" h="-1" measuredW="95" measuredH="24" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>StopIcon%7Csmall</icon>
+        <labelPosition>right</labelPosition>
+        <text>@ADS2015</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
