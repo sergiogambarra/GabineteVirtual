@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+    {
+        "less2css":
+        {
+            "autoCompile": true,
+            "minify": false
+        }
+    }
+}

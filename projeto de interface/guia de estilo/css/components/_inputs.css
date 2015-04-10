@@ -1,0 +1,55 @@
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.input,
+input[type='text'],
+input[type='password'],
+input[type='date'],
+input[type='datetime'],
+input[type='month'],
+input[type='year'],
+input[type='number'],
+input[type='search'] {
+  display: block;
+  line-height: 1.4;
+  padding: 5px 12px;
+  color: #333;
+  border: 1px solid #bbb;
+  outline: 0;
+  transition: border linear .3s;
+  margin: 0;
+}
+.input--success {
+  border-color: #3ab26d !important;
+}
+.input--error {
+  border-color: #cf4343 !important;
+}
+li {
+  list-style: none;
+}
+input[type='text']:hover,
+input[type='password']:hover,
+input[type='date']:hover,
+input[type='datetime']:hover,
+input[type='month']:hover,
+input[type='year']:hover,
+input[type='number']:hover,
+input[type='search']:hover {
+  border-color: #777;
+}
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='date']:focus,
+input[type='datetime']:focus,
+input[type='month']:focus,
+input[type='year']:focus,
+input[type='number']:focus,
+input[type='search']:focus {
+  border-color: #63aae2;
+}
