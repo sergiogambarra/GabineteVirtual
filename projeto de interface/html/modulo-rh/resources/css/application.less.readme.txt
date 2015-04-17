@@ -1,0 +1,29 @@
+É o arquivo principal que defini quais arquivos .css irão compor esse layout em particular. Ele une todos os estilos base, os estilos específicos de layout, estilos compartilhados e estilos de terceiros.
+
+#Exemplo
+
+/*-----------
+/*  BASE
+/*-----------
+@import "base/variables"
+@import "base/reset"
+@import "base/spaces"
+@import "base/grids"
+@import "base/helpers"
+
+/*---------------------
+/*  Application styles
+/*---------------------
+@import "application/layout"
+@import "application/typography"
+
+@import "application/objects/button"
+..........
+@import "application/modules/article"
+..........
+
+/*---------------------
+/*  Shared
+/*---------------------
+@import "shared/stars"
+@import "shared/modals"

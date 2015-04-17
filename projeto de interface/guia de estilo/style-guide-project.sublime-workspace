@@ -11,7 +11,7 @@
 			"file": "style_guide.html",
 			"settings":
 			{
-				"buffer_size": 5937,
+				"buffer_size": 6485,
 				"line_ending": "Windows"
 			}
 		},
@@ -19,7 +19,7 @@
 			"file": "css/components/_inputs.less",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 814,
 				"line_ending": "Windows"
 			}
 		},
@@ -27,20 +27,23 @@
 			"file": "css/structure.less",
 			"settings":
 			{
-				"buffer_size": 1131,
+				"buffer_size": 1166,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style-guide-project.sublime-project",
+			"settings":
+			{
+				"buffer_size": 172,
 				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
-	"build_system_choices":
-	[
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 104.0,
-		"last_filter": "insta",
 		"selected_items":
 		[
 			[
@@ -60,11 +63,7 @@
 	},
 	"console":
 	{
-		"height": 146.0,
-		"history":
-		[
-			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
-		]
+		"height": 146.0
 	},
 	"distraction_free":
 	{
@@ -75,18 +74,12 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo",
-		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo/css",
-		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo/css/components"
-	],
 	"file_history":
 	[
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -117,46 +110,14 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "style_guide.html",
-					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5937,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4520,
-								4520
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1188.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/components/_inputs.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 6485,
 						"regions":
 						{
 						},
@@ -169,30 +130,58 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1188.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "css/structure.less",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "css/components/_inputs.less",
 					"settings":
 					{
-						"buffer_size": 1131,
+						"buffer_size": 814,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								94
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/structure.less",
+					"settings":
+					{
+						"buffer_size": 1166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -203,7 +192,32 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style-guide-project.sublime-project",
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"type": "text"
 				}
 			]
@@ -244,8 +258,6 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
-	"project": "style-guide-project.sublime-project",
 	"replace":
 	{
 		"height": 0.0
@@ -254,7 +266,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -263,32 +274,15 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 380.0
-	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"last_filter": "",
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"selected_group": 0,
-	"settings":
-	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 231.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"status_bar_visible": true
 }

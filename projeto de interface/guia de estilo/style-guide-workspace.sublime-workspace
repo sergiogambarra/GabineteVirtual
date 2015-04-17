@@ -7,38 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "style_guide.html",
-			"settings":
-			{
-				"buffer_size": 6485,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/components/_inputs.less",
-			"settings":
-			{
-				"buffer_size": 814,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/structure.less",
-			"settings":
-			{
-				"buffer_size": 1166,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/structure.css",
-			"settings":
-			{
-				"buffer_size": 4118,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -91,6 +59,14 @@
 	],
 	"file_history":
 	[
+		"/C/applications/modulo-rh/semantic-ui/src/semantic.less",
+		"/C/applications/modulo-rh/semantic-ui/src/theme.less",
+		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo/css/structure.less",
+		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo/style_guide.html",
+		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo/css/components/_inputs.less",
+		"/C/applications/modulo-rh/semantic-ui/examples/homepage.html",
+		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo/css/structure.css",
+		"/C/applications/modulo-rh/semantic-ui/semantic.json.example",
 		"/C/Users/10070085/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/10070085/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo/css/page.less",
@@ -129,127 +105,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "style_guide.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6485,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5347,
-								5347
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1296.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/components/_inputs.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 814,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79,
-								79
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/structure.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1166,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								96,
-								96
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/structure.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4118,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2169,
-								2169
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1728.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
