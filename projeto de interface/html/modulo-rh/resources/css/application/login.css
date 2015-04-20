@@ -1,0 +1,32 @@
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+body > main {
+  flex: 1;
+}
+body > footer {
+  height: 150px;
+  background-color: #333;
+}
+.login-box {
+  border: 1px solid red;
+  padding: 20px;
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}

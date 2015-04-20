@@ -3,23 +3,83 @@
 	{
 		"selected_items":
 		[
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"le",
+				"letter-spacing"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "views/login.html",
-			"settings":
-			{
-				"buffer_size": 1700,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "resources/css/application.less",
 			"settings":
 			{
-				"buffer_size": 249,
+				"buffer_size": 346,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/css/application/objects/checkbox.less",
+			"settings":
+			{
+				"buffer_size": 296,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/css/application/objects/checkbox__radio.less",
+			"settings":
+			{
+				"buffer_size": 1121,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/pages/login.ejs",
+			"settings":
+			{
+				"buffer_size": 1954,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/css/base/helpers.less",
+			"settings":
+			{
+				"buffer_size": 181,
 				"line_ending": "Windows"
 			}
 		},
@@ -27,15 +87,7 @@
 			"file": "resources/css/application/layout/login.less",
 			"settings":
 			{
-				"buffer_size": 191,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo/css/structure.less",
-			"settings":
-			{
-				"buffer_size": 1166,
+				"buffer_size": 590,
 				"line_ending": "Windows"
 			}
 		}
@@ -47,12 +99,16 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 81.0,
+		"last_filter": "install",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 392.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -73,12 +129,40 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/html/modulo-rh",
-		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/html/modulo-rh/resources",
-		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/html/modulo-rh/resources/css"
+		"/C/Users/Pedro Bernardo/Desktop/present",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/application",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/application/layout",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/base",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/shared",
+		"/C/Users/Pedro Bernardo/Desktop/present/views",
+		"/C/Users/Pedro Bernardo/Desktop/present/views/pages"
 	],
 	"file_history":
 	[
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/base/reset.less",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/application/login.less",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/base/helpers.less",
+		"/D/Projetos/GabineteVirtual/projeto de interface/guia de estilo/css/customize-radio-check.css",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/application/objects/checkbox__radio.less",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/base/fonts.less",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/application.css",
+		"/C/Users/Pedro Bernardo/Desktop/present/server.js",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/application/objects/button.less",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/application/objects/input.less",
+		"/C/Users/Pedro Bernardo/Desktop/present/views/pages/index.ejs",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/base/comments.less",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/application/typograph.less",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/base/variables.less",
+		"/C/Users/Pedro Bernardo/Desktop/semantic-learning/Semantic-UI-1.12.0/Semantic-UI-1.12.0/src/definitions/elements/input.less",
+		"/C/Users/Pedro Bernardo/Desktop/present/views/pages/login.ejs",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/application.less",
+		"/C/Users/Pedro Bernardo/Desktop/present/package.json",
+		"/C/Users/Pedro Bernardo/Desktop/present/rh.sublime-project",
+		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo/css/structure.less",
+		"/C/Users/Pedro Bernardo/Desktop/present/views/login.html",
+		"/C/Users/Pedro Bernardo/Desktop/present/resources/css/application/layout/login.less",
 		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/html/modulo-rh/resources/css/application/layout/main.less",
 		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo/css/page.less",
 		"/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/html/modulo-rh/rh.sublime-project",
@@ -96,7 +180,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -110,6 +194,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fa",
+			"fa-font-size-base",
+			"-1px",
+			"-1pxx",
 			"setting",
 			"/icons",
 			"themes/",
@@ -138,49 +226,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "views/login.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1700,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1244,
-								1244
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "resources/css/application.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 249,
+						"buffer_size": 346,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								249,
-								249
+								201,
+								201
 							]
 						],
 						"settings":
@@ -191,16 +249,106 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/css/application/objects/checkbox.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "resources/css/application/layout/login.less",
+					"file": "resources/css/application/objects/checkbox__radio.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 191,
+						"buffer_size": 1121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/pages/login.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/css/base/helpers.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
 						"regions":
 						{
 						},
@@ -219,35 +367,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/guia de estilo/css/structure.less",
+					"buffer": 5,
+					"file": "resources/css/application/layout/login.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1166,
+						"buffer_size": 590,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								574,
+								574
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -259,7 +409,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -330,7 +480,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 182.0,
+	"side_bar_width": 243.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,0 +1,111 @@
+.input,
+input[type=text],
+input[type=number],
+input[type=password],
+input[type=date],
+input[type=month],
+input[type=week],
+input[type=time],
+input[type=tel],
+input[type=email],
+input[type=url],
+input[type=search] {
+  font-size: 1.5em;
+  padding: 6px 8px;
+  height: 20px;
+  position: relative;
+  display: inline-flex;
+  border: 1px solid #c2c2c2;
+  transition: border linear .3s;
+}
+.input:hover,
+input[type=text]:hover,
+input[type=number]:hover,
+input[type=password]:hover,
+input[type=date]:hover,
+input[type=month]:hover,
+input[type=week]:hover,
+input[type=time]:hover,
+input[type=tel]:hover,
+input[type=email]:hover,
+input[type=url]:hover,
+input[type=search]:hover {
+  border-color: #8c8c8c;
+}
+.input:focus,
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=date]:focus,
+input[type=month]:focus,
+input[type=week]:focus,
+input[type=time]:focus,
+input[type=tel]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=search]:focus {
+  border-color: #5a93fa;
+}
+.input--datetime,
+input[type=date],
+input[type=month],
+input[type=week],
+input[type=time] {
+  top: -1px;
+  font-family: "Lato", sans-serif;
+}
+.input--search,
+input[type=search] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.input--password,
+input[type=password] {
+  letter-spacing: 2px;
+}
+::-webkit-input-placeholder {
+  color: #cccccc;
+  letter-spacing: 0;
+}
+:-moz-placeholder {
+  color: #cccccc;
+  letter-spacing: 0;
+}
+::-moz-placeholder {
+  color: #cccccc;
+  letter-spacing: 0;
+}
+:-ms-input-placeholder {
+  color: #cccccc;
+  letter-spacing: 0;
+}
+.input-icon,
+.input-icon--left {
+  position: relative;
+}
+.input-icon .fa,
+.input-icon--left .fa {
+  font-size: 1.5em;
+  margin-left: -25px;
+  color: #cccccc;
+  transition: color ease-in-out 0.3s;
+}
+.input-icon > input,
+.input-icon--left > input {
+  padding-right: 30px;
+}
+.input-icon > input:focus + .fa,
+.input-icon--left > input:focus + .fa {
+  color: #222222;
+}
+.input-icon--left .fa {
+  position: absolute;
+  left: 8px;
+  margin-left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input-icon--left > input {
+  padding-right: 8px;
+  padding-left: 30px;
+}

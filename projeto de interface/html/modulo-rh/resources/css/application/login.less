@@ -1,0 +1,31 @@
+@import "../../base/grid";
+
+@columns: 12;
+@column-width: 60;
+@gutter-width: 20;
+
+// ==========================================================================
+// Estrutura Principal
+// ==========================================================================
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+body > main {
+  flex: 1;
+}
+
+body > footer {
+  height: 150px;
+  background-color: #333;
+}
+
+// Caixa de Login
+// ==========================================================================
+.login-box {
+  border: 1px solid red;
+  padding: 20px;
+  .column(4);
+}

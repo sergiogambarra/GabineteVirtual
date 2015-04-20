@@ -1,0 +1,75 @@
+// BOTÕES
+//
+// Descrição [...]
+//
+//
+// TODO: [...]
+//
+// DEPENDÊNCIAS
+@import "../../base/variables";
+
+//colors
+@default: #f5f5f5;
+@primary: #3a92dd;
+@success: #21d360;
+@warn: #f2ce3b;
+@danger: #d04747;
+@info: #27d7c9;
+
+.button {
+  background-color: @default;
+  font-family: @font-family;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #555;
+  border: 1px solid darken(@default, 5%);
+  box-shadow: 0 3px 0 darken(@default, 10%);
+  padding: 8px 15px;
+  position: relative;
+  cursor: pointer;
+
+  &:active {
+    box-shadow: none;
+    top: 3px;
+  }
+}
+
+.button--primary {
+  &:extend(.button all);
+  color: #fff;
+  background-color: @primary;
+  border: 1px solid darken(@primary, 5%);
+  box-shadow: 0 3px darken(@primary, 10%);
+}
+
+.button--success {
+  &:extend(.button all);
+  color: #fff;
+  background-color: @success;
+  border: 1px solid darken(@success, 5%);
+  box-shadow: 0 3px darken(@success, 10%);
+}
+
+.button--warn {
+  &:extend(.button all);
+  color: #fff;
+  background-color: @warn;
+  border: 1px solid darken(@warn, 5%);
+  box-shadow: 0 3px darken(@warn, 10%);
+}
+
+.button--danger {
+  &:extend(.button all);
+  color: #fff;
+  background-color: @danger;
+  border: 1px solid darken(@danger, 5%);
+  box-shadow: 0 3px darken(@danger, 10%);
+}
+
+.button--info {
+  &:extend(.button all);
+  color: #fff;
+  background-color: @info;
+  border: 1px solid darken(@info, 5%);
+  box-shadow: 0 3px darken(@info, 10%);
+}

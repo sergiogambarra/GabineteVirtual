@@ -1,0 +1,10 @@
+{
+  "name": "style_guide",
+  "version": "0.1.0",
+  "main": "server.js",
+  "repository": "",
+  "dependencies": {
+    "ejs": ">=1.0.0",
+    "express": ">=4.6.1"
+  }
+}

@@ -2,15 +2,15 @@
 	"folders":
 	[
 		{
-			"path": "/C/Users/10070085/Documents/GitHub/GabineteVirtual/projeto de interface/html/modulo-rh"
+			"path": "."
 		}
 	],
 	"settings":
-    {
-        "less2css":
-        {
-            "autoCompile": true,
-            "minify": false
-        }
-    }
+	{
+		"less2css":
+		{
+			"autoCompile": true,
+			"minify": false
+		}
+	}
 }
