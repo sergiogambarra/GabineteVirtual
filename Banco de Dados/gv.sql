@@ -11,7 +11,7 @@ create table Servidor(
     NomePai                             varchar(100),
     Senha                               varchar(100),
     Email                               varchar(100),
-    Perfil                              varchar(100),
+    Perfil                              varchar(99),
     Sexo                                Boolean     ,
     DataNascimento                      Date        ,
     Naturalidade                        varchar(100),
