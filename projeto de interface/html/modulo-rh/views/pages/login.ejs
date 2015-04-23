@@ -1,49 +1,64 @@
 <!doctype html>
 <html class="no-js" lang="">
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Módulo RH - Login</title>
-    <meta name="description" content="login para o módulo RH do IFRS Restinga">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Login - Módulo RH</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="img/fav/apple-touch-icon.png">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/application.css">
-
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+      <link rel="apple-touch-icon" href="img/fav/apple-touch-icon.png">
+      <link rel="stylesheet" href="css/vendor/semantic.css">
+      <link rel="stylesheet" href="css/application.css">
+      <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
-  <body>
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">Você está usando um navegador <strong>desatualizado</strong>. Por favor <a href="http://browsehappy.com/">atualize o seu navegador</a> para melhorar a sua experiência.</p>
-    <![endif]-->
-    <main class="container-flex center-flex">
-      <!-- Login Box -->
-      <form class="login-box">
-        <figure class="logo lobo--big"></figure>
-        <div>
-          <div class="input-icon--left">
-            <input type="text" placeholder="Usuário">
-            <i class="fa fa-user"></i>
-          </div>
-          <div class="input-icon--left">
-            <input type="password" placeholder="Senha">
-            <i class="fa fa-lock"></i>
-          </div>
-          <div>
-            <input type="checkbox" id="keep_logged" />
-            <label for="keep_logged">Me manter conectado</label>
-          </div>
-        </div>
-        <input type="submit" class="button--primary block--level" value="Entrar">
-      </form>
-      <!-- </>Login Box -->
-    </main>
-    <footer>
-    </footer>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-    <script src="js/main.js"></script>
+  <body class="page-login flex-wrap">
+      <!--[if lt IE 8]>
+          <p class="browserupgrade">Você está usando um navegador <strong>desatualizado</strong>. Por favor <a href="http://browsehappy.com/">atualize o seu navegador</a> para melhorar a sua experiência.</p>
+      <![endif]-->
+      
+      <!-- < > Login -->
+      <mai class="flex-center flex-grow">
+        <figure class="logo logo--big"></figure>
+        <form class="login-box flat-box">
+          <div class="field">
+            <div class="ui fluid left icon input">
+              <input type="text" placeholder="Usuário" required>
+              <i class="user icon"></i>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui fluid left icon input">
+              <input type="password" placeholder="Senha" required>
+              <i class="lock icon"></i>
+            </div>
+          </div>
+          <div class="inline field">
+            <div class="ui checkbox">
+              <input type="checkbox">
+              <label>Me manter conectado</label>
+            </div>
+          </div>
+          <div class="fluid ui animated submit primary button">
+            <div class="visible content">Entrar</div>
+            <!-- use div ... -->
+            <a class="hidden content" href="/" style="color:#fff;">
+              <i class="right arrow icon"></i>
+            </a>
+          </div>
+          <div class="triangle"></div>
+        </form>
+        <div>
+          <a href="#">Esqueci a senha</a>
+        </div>
+      </main>
+      <!-- </> Login -->
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+      <script src="js/vendor/semantic.min.js"></script>
+      <script src="js/main.js"></script>
   </body>
 </html>

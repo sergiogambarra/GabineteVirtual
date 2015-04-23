@@ -16,9 +16,9 @@ app.use(express.static(__dirname + '/resources'));
 app.get('/', function(req, res) {
     res.render('pages/index');
 });
-// # definindo rotas:
 
-// #login
+// #: definindo rotas:
+// #: login
 app.get('/login', function(req, res) {
     res.render('pages/login');
 });

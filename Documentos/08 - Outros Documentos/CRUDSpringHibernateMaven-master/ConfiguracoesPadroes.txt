@@ -1,0 +1,52 @@
+﻿-------------------------------------------------------
+-----------------CONFIGURACOES PADROES-----------------
+-------------------------------------------------------
+
+NUNCA RODAR O COMANDO->  MVN ECLIPSE:ECLIPSE, DESCONFIGURA O PROJETO.
+
+
+-------------------------------------------------------
+INSTRUCAO PARA CRIACAO:
+
+CRIAR MAVEN PROJECT
+PULAR ARCHETYPE
+BOTAO DIREITO NO PROJETO, CONFIGURAÇOES, PROJECT FACETS, MARCAR DYNAMIC WEB MODULE E ALTERAR VERSAO PARA 2.5
+CONFIGURAR SPRING.CFG-SERVLET.XML -> NAO ESQUECER <mvc:annotation-driven />, NECESSARIO PARA VALIDACAO COM BEAN VALIDATION
+CONFIGURAR WEB.XML
+CONFIGURAR HIBERNATE.CFG.XML
+CRIAR CLASSES
+FIM
+-------------------------------------------------------
+
+
+
+-------------------------------------------------------
+BANCO DE DADOS: POSTGRESQL
+
+SCRIPTS NECESSARIOS:
+
+create table usuario
+( 
+	id serial not null,
+	nome varchar(50),
+	sobrenome varchar(50),
+	username varchar(50),
+	senha varchar(10),
+	confirmaSenha varchar(10),
+	email varchar(50),
+	dataCadastro date,
+	tipoUsuario varchar(50),
+	CONSTRAINT usuario_pkey PRIMARY KEY (id)
+)
+
+CREATE TABLE produto
+(
+  id serial NOT NULL,
+  nome character varying(50),
+  descricao character varying(100),
+  preco double precision,
+  datacadastro date,
+  idUsuario int, 
+  CONSTRAINT produto_pkey PRIMARY KEY (id)
+)
+-------------------------------------------------------

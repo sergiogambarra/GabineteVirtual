@@ -1,20 +1,57 @@
-@import "base/variables";
-@import "base/helpers";
-@import "base/reset";
-@import "base/grid";
-
-@import "application/typograph";
-@import "application/objects/input";
-@import "application/objects/button";
-@import "application/objects/checkbox";
-
 @import "application/layout/login";
+@import "application/layout/index";
 
-ul {
-  list-style: none;
+
+//FLEXBOX
+.flex {
+  display: flex;
 }
 
-li {
-  margin: 10px 0;
-  padding: 0;
+.flex-wrap {
+  &:extend(.flex);
+  min-height: 100vh;
+  flex-direction: column;
 }
+
+.flex-center {
+  &:extend(.flex);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex: 1;
+}
+
+// WHATEVER
+.flat-box {
+  position: relative;
+
+  .triangle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 35px solid #ddd;
+    border-right: 35px solid #fff;
+  }
+}
+
+.logo {
+  width: 400px;
+  height: 220px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+}
+
+.logo--big {
+  background: url("../img/logo--big.png") no-repeat center;
+}
+
+.logo--small {
+  background: url("../img/logo--small.png") no-repeat center;
+}
+

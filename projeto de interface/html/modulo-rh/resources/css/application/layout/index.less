@@ -1,0 +1,71 @@
+//VARIABLES
+@nav-height: 60px;
+
+//HELPERS
+.nav-square {
+  width: @nav-height;
+  height: @nav-height;
+}
+
+//STRUCTURE
+.page-index {
+  > .content {
+    background: #eee;
+  }
+}
+
+//NAVIGATION
+.main-nav {
+  height: @nav-height;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 0 rgba(0,0,0,.05);
+
+  > * {
+    height: @nav-height;
+  }
+
+  .logo {
+    &:extend(.nav-square);
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    border-right: 2px solid #eaeaea;
+  }
+
+  .controls {
+    display: table;
+    margin: 0 auto;
+  }
+}
+
+//USER CONTROL
+.user {
+  position: absolute;
+  top: 0;
+  right: 40px;
+
+  .user-pic {
+    &:extend(.nav-square);
+    margin: 0;
+    float: left;
+    position: relative;
+
+    > img {
+      background: #eee;
+      border-radius: 50%;
+      width: 75%;
+      height: 75%;
+      border: 1px solid #eee;
+    }
+  }
+  .username {
+    font-size: 15px;
+    padding: 22px 0
+  }
+
+  > * {
+    height: @nav-height;
+  }
+}

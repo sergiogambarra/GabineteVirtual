@@ -1,0 +1,53 @@
+.nav-square,
+.main-nav .logo,
+.user .user-pic {
+  width: 60px;
+  height: 60px;
+}
+.page-index > .content {
+  background: #eee;
+}
+.main-nav {
+  height: 60px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+}
+.main-nav > * {
+  height: 60px;
+}
+.main-nav .logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  border-right: 2px solid #eaeaea;
+}
+.main-nav .controls {
+  display: table;
+  margin: 0 auto;
+}
+.user {
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+.user .user-pic {
+  margin: 0;
+  float: left;
+  position: relative;
+}
+.user .user-pic > img {
+  background: #eee;
+  border-radius: 50%;
+  width: 75%;
+  height: 75%;
+  border: 1px solid #eee;
+}
+.user .username {
+  font-size: 15px;
+  padding: 22px 0;
+}
+.user > * {
+  height: 60px;
+}
